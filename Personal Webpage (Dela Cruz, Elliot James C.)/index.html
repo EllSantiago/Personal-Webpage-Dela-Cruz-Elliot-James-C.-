@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/5b394bdfbb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--  Header -->   
+  <div id="header"> 
+    <div class="container">
+        <nav>
+          <img src="css/images/logo1.png" alt="logo">
+          <ul id="sidemenu">
+            <!-- <i class="fa-solid fa-xmark" onclick="closemenu()"></i> -->
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
+        </nav>
+        <div class="header-text">
+          <p> UI/UX Designer </p>
+          <h1>Hi, I am <span>Elliot</span> James C. <br> Dela Cruz</h1>
+        </div>
+    </div>
+  </div> 
+<!--  About --> 
+  <div id="about"> 
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="css/images/user1.png" alt="user-image">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>An aspiring IT student with proficiency in handling technology and also well-versed in programming in a variety of languages such as Java, Javascript, C++, and C#.  Eager to impart my assortment of knowledge within the field of tech as well as to cultivate my prowess in programming to work within the field I can be most suited for in order to benefit the success of this chosen industry. </p>
+
+          <div class="tab-titles active-tab">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('core-comp')">Core Competencies</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App Interfaces. Able to create up to date web browsers that are highly in demand with the current technological age. Able to be a front-end developer utilizing the programming languages such as; HTML, CSS and Javascript.</li>
+              <li><span>Web Development</span><br>Web App Development. Efficient in managing the knacks and behind the scenes in the deveopment of web applications. Able to be a back-end developer utilizing a variety of programming languages such as; Java, Php, Python and C#</li>
+              <li><span>App Development</span><br>Building Android/IOS apps. Have worked hand-in-hand in creating mobile applications that and have imited experience in developing video-games for mobile devices. With primarily using the application Android Studio to develop and using languages such as Java, Kotlin, and C#</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="core-comp">
+            <ul>
+              <li><span>Participate in workplace communication</span></li>
+              <li><span>Technical Troubleshooting</span></li>
+              <li><span>Computer Repair and Maintenance</span></li>
+              <li><span>Hardware and Software Installation</span></li>
+              <li><span>Perform workplace and safety practice</span></li>
+              <li><span>Provide effective customer service</span></li>
+              <li><span>Develop and update industry knowledge</span></li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Secondary Education<br>2015-2021</span><br>Saint John The Baptist Catholic School</li>
+              <li><span>Bachelor of science in information technology<br>2021-Ongoing</span><br>Bulacan State University</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>   
+  <!-- Services --> 
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Need help desigining a webpage such as the you see before you? May I have the pledge to be of service to you.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>UI/UX Design</h2>
+          <p>Having trouble figuring out on what "aesthetic" and "eye-catching" design for your app? Well then let me grace it with beauty so that it may catch the eyes of the beholders.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Debug</h2>
+          <p>Want to kickstart in development of applications either for mobiles and computers alike? Let me have your time to optimize and work out the bugs pesking around in your apps.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>  
+    <!-- Portfolio --> 
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Works</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="css/images/work-1.png">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>A prototype of a social media site built with gamers in mind as for easier and comfortable communication whenever they currently gaming.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="css/images/work-2.png">
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>An app dedicated to searching different media sites and having the capability to download on the go to a different file types such mp3 and more.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="css/images/work-3.png">
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>A latest addition being currently developed application. The application in mind is made to make customer service have an easier communication between their clients and to make each parcel delivery safe and secure. </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div> 
+       <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+<!-- Contact -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-share-from-square"></i>contact@example.com</p>
+          <p><i class="fa-solid fa-phone"></i>012345678910</p>
+          <div class="social-icons">
+            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="css/images/my-cv.pdf" download class="btn btn2">Dowload CV</a>
+        </div>
+        <div class="contact-right">
+            <form>
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p> Copyright © Elliot 2023. The following website was made possible using programming languages of namely; html,css and javascript. Keep in mind that the contents in the website are still under development or currently false and serves as a template for which said website can be utilized. This website was done for completion of the final project/final exam under the subject IT-304 which is supervised by our professor, Mr. Sheldon V. Arenas</p>
+    </div>
+  </div>
+
+  <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");   
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <!-- <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+
+  </script> -->
+
+</body>
+</html>
